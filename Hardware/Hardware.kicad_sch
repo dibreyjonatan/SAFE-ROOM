@@ -3281,6 +3281,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 53.34) (xy 199.39 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0993b1ba-31bc-4d7b-9525-cbf812575559")
+	)
+	(wire
+		(pts
 			(xy 152.4 30.48) (xy 172.72 30.48)
 		)
 		(stroke
@@ -3348,6 +3358,16 @@
 			(type default)
 		)
 		(uuid "196ee016-9a7c-4965-a825-aee3682c96de")
+	)
+	(wire
+		(pts
+			(xy 173.99 58.42) (xy 199.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf5eabb-850a-4739-922c-774b02a17309")
 	)
 	(wire
 		(pts
@@ -3448,6 +3468,16 @@
 			(type default)
 		)
 		(uuid "42f7dbe0-65fb-41d4-a0a7-c5ea433d3976")
+	)
+	(wire
+		(pts
+			(xy 165.1 73.66) (xy 171.45 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4385fb5c-8879-4c30-9dbc-88cdcc30a85e")
 	)
 	(wire
 		(pts
@@ -3641,6 +3671,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 73.66) (xy 171.45 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c69acfd-7061-4f49-8641-22e3ce5a218f")
+	)
+	(wire
+		(pts
 			(xy 113.03 66.04) (xy 113.03 82.55)
 		)
 		(stroke
@@ -3798,6 +3838,16 @@
 			(type default)
 		)
 		(uuid "ac4bf09c-3933-4b78-9314-078c893b36f1")
+	)
+	(wire
+		(pts
+			(xy 173.99 76.2) (xy 173.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac5c3780-8604-4740-9e98-69b994fe3479")
 	)
 	(wire
 		(pts
@@ -4191,6 +4241,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 76.2) (xy 173.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5fbcc40-3c26-4fb2-8f04-52514cf37afb")
+	)
+	(wire
+		(pts
 			(xy 93.98 132.08) (xy 85.09 132.08)
 		)
 		(stroke
@@ -4492,6 +4552,28 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "USB_D+"
+		(shape bidirectional)
+		(at 199.39 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "289988be-a5ef-44fb-847e-f45eb0541d32")
+	)
+	(hierarchical_label "USB_D-"
+		(shape bidirectional)
+		(at 199.39 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d1e137c-dd00-4ade-a72d-18337633239a")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7704,7 +7786,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "RF.kicad_sch"
 			(at 24.13 130.1246 0)
 			(effects
 				(font
@@ -7727,6 +7809,48 @@
 			(project "Hardware"
 				(path "/ba4846b8-7c71-441f-b11b-b34cbea60d05"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 49.53)
+		(size 31.75 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f91aa170-a53f-4636-962a-1e68ecfd96a0")
+		(property "Sheetname" "USB SCHEME"
+			(at 199.39 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 199.39 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hardware"
+				(path "/ba4846b8-7c71-441f-b11b-b34cbea60d05"
+					(page "3")
 				)
 			)
 		)

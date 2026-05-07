@@ -408,7 +408,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "RF",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -428,6 +428,10 @@
     [
       "f30678ac-07b1-44be-9fb4-b413baff1170",
       "RF SECTION"
+    ],
+    [
+      "f91aa170-a53f-4636-962a-1e68ecfd96a0",
+      "USB SCHEME"
     ]
   ],
   "text_variables": {}
