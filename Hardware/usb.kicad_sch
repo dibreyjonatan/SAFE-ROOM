@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c58f5c65-40a4-409e-81ba-c3e32c2a927d")
+	(uuid "6141a004-8b8e-4b1f-8591-fb0ac352cfd8")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
@@ -2129,12 +2129,6 @@
 		(uuid "7e2463dd-8f3d-48f4-bc52-9a6ddce0e9f6")
 	)
 	(junction
-		(at 132.08 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9adb822b-781e-4aff-ae35-056d114894e0")
-	)
-	(junction
 		(at 138.43 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2204,16 +2198,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 27.94) (xy 132.08 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "291366bf-990c-4e9e-b731-9efb0f407a47")
-	)
-	(wire
-		(pts
 			(xy 99.06 29.21) (xy 107.95 29.21)
 		)
 		(stroke
@@ -2231,16 +2215,6 @@
 			(type default)
 		)
 		(uuid "31e182f0-1f3d-4860-9cac-10307352f0ac")
-	)
-	(wire
-		(pts
-			(xy 128.27 29.21) (xy 132.08 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37ca9635-9ae1-4383-905a-48060005fc2c")
 	)
 	(wire
 		(pts
@@ -2264,7 +2238,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 29.21) (xy 137.16 29.21)
+			(xy 128.27 29.21) (xy 137.16 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3444,72 +3418,6 @@
 			(project ""
 				(path "/ba4846b8-7c71-441f-b11b-b34cbea60d05/f91aa170-a53f-4636-962a-1e68ecfd96a0"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 132.08 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b189e42-12f5-4207-bab0-600f1e8eff2c")
-		(property "Reference" "#FLG02"
-			(at 132.08 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 132.08 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 132.08 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f132f92c-967c-47e7-ac01-e2e701e15287")
-		)
-		(instances
-			(project ""
-				(path "/ba4846b8-7c71-441f-b11b-b34cbea60d05/f91aa170-a53f-4636-962a-1e68ecfd96a0"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)

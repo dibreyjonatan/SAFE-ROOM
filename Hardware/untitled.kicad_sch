@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "61bea34c-2580-408a-9c77-6fa8f8a8f5fd")
+	(uuid "b29bcb32-d503-4735-a2c3-5f2c2c24db44")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
@@ -727,19 +727,13 @@
 		(at 81.28 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0405854c-6a96-4be1-9b2b-7c54e4d014ad")
+		(uuid "2323e7f2-9a7a-445d-bf45-dc9a93cf0ae0")
 	)
 	(junction
 		(at 109.22 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79e7dd1e-e22e-4aa6-b963-4a1502dadae4")
-	)
-	(junction
-		(at 93.98 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c093555-4105-4116-94cc-654bdc40e9e2")
 	)
 	(wire
 		(pts
@@ -760,16 +754,6 @@
 			(type default)
 		)
 		(uuid "18a681a6-3122-4a89-b9a6-f78a3938adc6")
-	)
-	(wire
-		(pts
-			(xy 81.28 63.5) (xy 93.98 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4230f832-48ec-465f-a267-d2de335fc099")
 	)
 	(wire
 		(pts
@@ -803,6 +787,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 63.5) (xy 93.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7746cb0e-0cd7-4c9e-88d9-0fa71a86401e")
+	)
+	(wire
+		(pts
 			(xy 80.01 62.23) (xy 80.01 63.5)
 		)
 		(stroke
@@ -820,16 +814,6 @@
 			(type default)
 		)
 		(uuid "9a8d0d47-06b9-4fb0-9806-9080c11e4b24")
-	)
-	(wire
-		(pts
-			(xy 93.98 63.5) (xy 95.25 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a716fd41-463f-4cc1-9ec1-e42d93af931f")
 	)
 	(wire
 		(pts
