@@ -2098,6 +2098,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LED TO CHECK IF THE BOARD IS POWERED"
+		(exclude_from_sim no)
+		(at 183.642 35.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1eab25cb-1ab4-4f3e-b4d2-fec04d9a8453")
+	)
 	(junction
 		(at 99.06 29.21)
 		(diameter 0)
