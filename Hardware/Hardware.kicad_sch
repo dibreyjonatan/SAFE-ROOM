@@ -6128,6 +6128,16 @@
 		)
 		(uuid "19ed192f-678f-4e91-94e1-a4aaf314f400")
 	)
+	(label "USB_D-"
+		(at 177.8 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a0c6016-0855-4577-9972-bb11f2b04b8c")
+	)
 	(label "VDDA"
 		(at 144.78 35.56 0)
 		(effects
@@ -6168,6 +6178,16 @@
 		)
 		(uuid "6cc571c1-16e8-423e-9a45-c15d87afda94")
 	)
+	(label "RF"
+		(at 76.2 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7359b4b0-b792-4c44-b577-a61df454f611")
+	)
 	(label "SWDIO"
 		(at 172.72 78.74 0)
 		(effects
@@ -6177,6 +6197,16 @@
 			(justify left bottom)
 		)
 		(uuid "86dfb752-20f8-44ca-9a2f-763c787fa578")
+	)
+	(label "USB_D+"
+		(at 179.07 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d76494f-ae9d-45ed-a92f-79f371c68cfe")
 	)
 	(label "PH3_BOOT"
 		(at 48.26 152.4 0)

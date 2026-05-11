@@ -1895,6 +1895,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2121,6 +2246,12 @@
 		(uuid "1f9aa155-f14b-480c-aa88-073b275549b2")
 	)
 	(junction
+		(at 91.44 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d427e45-47d3-4d2f-a363-4f4a1123a338")
+	)
+	(junction
 		(at 83.82 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2225,6 +2356,16 @@
 			(type default)
 		)
 		(uuid "31e182f0-1f3d-4860-9cac-10307352f0ac")
+	)
+	(wire
+		(pts
+			(xy 91.44 55.88) (xy 83.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45bd9145-cfa3-47aa-91e8-0df1fbd68e08")
 	)
 	(wire
 		(pts
@@ -2458,6 +2599,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 54.61) (xy 91.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af51bb47-0ff1-4f86-bc39-1231e1b3f7bf")
+	)
+	(wire
+		(pts
 			(xy 154.94 30.48) (xy 138.43 30.48)
 		)
 		(stroke
@@ -2548,7 +2699,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 55.88) (xy 83.82 55.88)
+			(xy 99.06 55.88) (xy 91.44 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3914,6 +4065,72 @@
 			(project ""
 				(path "/ba4846b8-7c71-441f-b11b-b34cbea60d05/f91aa170-a53f-4636-962a-1e68ecfd96a0"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 91.44 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7eb3beb-c1bb-4403-9500-5bfad6bd1141")
+		(property "Reference" "#PWR045"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 91.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23dace46-2aec-4b15-85e7-077ca223de31")
+		)
+		(instances
+			(project ""
+				(path "/ba4846b8-7c71-441f-b11b-b34cbea60d05/f91aa170-a53f-4636-962a-1e68ecfd96a0"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
