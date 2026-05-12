@@ -8598,7 +8598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm"
+		(property "Footprint" "my_personnal_Library_footprint:QFN40P800X800X100-69N"
 			(at 121.92 132.08 0)
 			(effects
 				(font
