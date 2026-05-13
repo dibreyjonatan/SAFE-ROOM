@@ -895,26 +895,6 @@
 		)
 		(uuid "8672ae86-9b02-4da9-be3f-db407db72515")
 	)
-	(label "RF_in"
-		(at 88.9 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dbbe06b8-df2f-46b8-a05d-f6d7c5185f0b")
-	)
-	(label "RF"
-		(at 157.48 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ddc6e74c-f6d9-4133-902c-f0688785fb26")
-	)
 	(hierarchical_label "RF_IN"
 		(shape input)
 		(at 81.28 67.31 90)
