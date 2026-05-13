@@ -7257,7 +7257,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C21"
-			(at -0.48 1 0)
+			(at -0.98 1.5 0)
 			(layer "F.SilkS")
 			(uuid "11ebf745-8b6c-454c-b7ce-18cb66b83c1e")
 			(effects
@@ -12922,6 +12922,32 @@
 		(layer "Edge.Cuts")
 		(uuid "85098f7b-cf51-4295-8900-dc7f575d7455")
 	)
+	(gr_text "RESET"
+		(at 138.5 84.5 0)
+		(layer "F.SilkS")
+		(uuid "05569e77-145f-46bf-a8a0-49dde472e2d8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RF"
+		(at 178.5 67 0)
+		(layer "F.SilkS")
+		(uuid "6da1cadb-e134-490b-945a-bdba2f77d169")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "V1.0"
 		(at 131 62 0)
 		(layer "F.SilkS")
@@ -12930,6 +12956,32 @@
 			(font
 				(size 1.5 1.5)
 				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BME280"
+		(at 157.5 85 0)
+		(layer "F.SilkS")
+		(uuid "b89b6d83-9d76-47c8-ae7d-0467f721d0d1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "USB-C"
+		(at 129.5 65.5 0)
+		(layer "F.SilkS")
+		(uuid "c95e4c72-98ae-4cee-8b18-22b36737105a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -12946,6 +12998,32 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "ST-LINK"
+		(at 132.5 84 90)
+		(layer "F.SilkS")
+		(uuid "e4d26f46-080d-4c76-89ee-03fa33b7ae77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DESIGNER PAR\nKAMDA TEZEBO"
+		(at 181 77 0)
+		(layer "B.SilkS")
+		(uuid "eb744d67-b8e3-47e2-b77a-045919c9e7fa")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
