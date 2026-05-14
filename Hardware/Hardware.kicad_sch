@@ -6595,7 +6595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 119.38 27.94 0)
 			(effects
 				(font
@@ -6605,6 +6605,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 119.38 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 119.38 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "04023C104KAT2A"
 			(at 119.38 27.94 0)
 			(effects
 				(font
@@ -6797,7 +6815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/WP7113SYD/Kingbright/datasheet/"
 			(at 180.34 144.78 0)
 			(effects
 				(font
@@ -6817,6 +6835,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 180.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright "
+			(at 180.34 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "WP7113SYD"
+			(at 180.34 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6939,7 +6975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/76/1/GRM155R61E105KA12-01A.pdf"
 			(at 76.2 67.31 0)
 			(effects
 				(font
@@ -6950,6 +6986,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 76.2 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM155R61E105KA12D"
+			(at 76.2 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +7060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 62.23 64.77 0)
 			(effects
 				(font
@@ -7017,6 +7071,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 62.23 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 62.23 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "04023C104KAT2A"
+			(at 62.23 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,7 +7145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 172.72 34.29 0)
 			(effects
 				(font
@@ -7084,6 +7156,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 172.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 172.72 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "04023C104KAT2A"
+			(at 172.72 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7209,7 +7299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 97.79 48.26 0)
 			(effects
 				(font
@@ -7219,6 +7309,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "04023C104KAT2A"
 			(at 97.79 48.26 0)
 			(effects
 				(font
@@ -7478,7 +7586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/508/1/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 48.26 157.48 0)
 			(effects
 				(font
@@ -7488,6 +7596,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 48.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 48.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402BR-0710KL"
 			(at 48.26 157.48 0)
 			(effects
 				(font
@@ -7545,7 +7671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/C0GNP0-KGM.pdf"
 			(at 151.13 21.59 0)
 			(effects
 				(font
@@ -7556,6 +7682,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 151.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 151.13 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "04025A101JAT2A"
+			(at 151.13 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,7 +7741,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "220"
 			(at 156.21 154.9399 0)
 			(effects
 				(font
@@ -7615,7 +7759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 153.67 153.67 0)
 			(effects
 				(font
@@ -7625,6 +7769,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 153.67 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 153.67 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-07221RL"
 			(at 153.67 153.67 0)
 			(effects
 				(font
@@ -7882,7 +8044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 104.14 87.63 0)
 			(effects
 				(font
@@ -7892,6 +8054,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 104.14 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 104.14 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603YD475MAT2A"
 			(at 104.14 87.63 0)
 			(effects
 				(font
@@ -8149,7 +8329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/76/2/JELF243B_0011.pdf"
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -8159,6 +8339,24 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 104.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 104.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LQM21FN100M70L"
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -8218,7 +8416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/C0GNP0-KGM.pdf"
 			(at 85.09 138.43 0)
 			(effects
 				(font
@@ -8228,6 +8426,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 85.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 85.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "04025A100JAT4A"
 			(at 85.09 138.43 0)
 			(effects
 				(font
@@ -8435,6 +8651,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 184.15 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 184.15 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "13b025dc-1145-40a6-bb58-55b59d9f7c12")
 		)
@@ -8493,7 +8727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheet/Yageo_RC_Series_Resistor.pdf?utm_source=snapeda&utm_medium=referral&utm_campaign=snapeda-suppression-datasheet"
 			(at 196.85 138.43 0)
 			(effects
 				(font
@@ -8503,6 +8737,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 196.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 196.85 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402BR-074K7L"
 			(at 196.85 138.43 0)
 			(effects
 				(font
@@ -8563,7 +8815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 109.22 27.94 0)
 			(effects
 				(font
@@ -8573,6 +8825,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 109.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 109.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "04023C104KAT2A"
 			(at 109.22 27.94 0)
 			(effects
 				(font
@@ -8634,7 +8904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wb55rg.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32wb55cc.pdf"
 			(at 142.24 86.36 0)
 			(effects
 				(font
@@ -8644,6 +8914,24 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 256KB RAM, 64 MHz, 1.71-3.6V, 49 GPIO, VFQFPN68"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "STM32WB55RGV6"
 			(at 142.24 86.36 0)
 			(effects
 				(font
@@ -8905,7 +9193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Kingbright/WP7113ND?qs=CJFmpBjNieP5MCFQ3vDfmg%3D%3D"
 			(at 168.91 144.78 0)
 			(effects
 				(font
@@ -8925,6 +9213,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 168.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 168.91 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "WP7113ND"
+			(at 168.91 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +9290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 226.06 119.38 0)
 			(effects
 				(font
@@ -8994,6 +9300,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 226.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 226.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "04023C104KAT2A"
 			(at 226.06 119.38 0)
 			(effects
 				(font
@@ -9118,7 +9442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/1591/1/NDKX01_00006_en.pdf"
 			(at 97.79 132.08 0)
 			(effects
 				(font
@@ -9128,6 +9452,24 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 97.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NDK"
+			(at 97.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NX2012SA-32.768K-STD-MUB-1"
 			(at 97.79 132.08 0)
 			(effects
 				(font
@@ -9170,7 +9512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "220"
 			(at 171.45 154.9399 0)
 			(effects
 				(font
@@ -9188,7 +9530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 168.91 153.67 0)
 			(effects
 				(font
@@ -9198,6 +9540,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 168.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 168.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-07221RL"
 			(at 168.91 153.67 0)
 			(effects
 				(font
@@ -9390,7 +9750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/6118/1/cmi_1295_85t.pdf"
 			(at 240.665 20.32 90)
 			(effects
 				(font
@@ -9400,6 +9760,24 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
+			(at 241.3 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Same Sky"
+			(at 241.3 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CMI-1295-85T"
 			(at 241.3 22.86 0)
 			(effects
 				(font
@@ -9526,7 +9904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 81.28 27.94 0)
 			(effects
 				(font
@@ -9536,6 +9914,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 81.28 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 81.28 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603YD475MAT2A"
 			(at 81.28 27.94 0)
 			(effects
 				(font
@@ -9605,6 +10001,24 @@
 		)
 		(property "Description" "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
 			(at 204.47 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bosch Sensortec"
+			(at 204.47 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BME280"
+			(at 204.47 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,6 +10117,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Diotec Semiconductor"
+			(at 227.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MMBT2222A"
+			(at 227.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "575db160-2dd8-4b8f-b5a4-f342eca0f73d")
 		)
@@ -9758,7 +10190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 90.17 27.94 0)
 			(effects
 				(font
@@ -9768,6 +10200,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 90.17 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 90.17 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "04023C104KAT2A"
 			(at 90.17 27.94 0)
 			(effects
 				(font
@@ -9828,7 +10278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Kingbright/WP7113QBC-D?qs=XgtFEgsXKydBAGlnpgZKtA%3D%3D"
 			(at 153.67 144.78 0)
 			(effects
 				(font
@@ -9848,6 +10298,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 153.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 153.67 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "WP7113QBC/D"
+			(at 153.67 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9904,7 +10372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 149.86 16.51 0)
 			(effects
 				(font
@@ -9915,6 +10383,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 149.86 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 149.86 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "04023C104KAT2A"
+			(at 149.86 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9974,7 +10460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheet/Yageo_RC_Series_Resistor.pdf?utm_source=snapeda&utm_medium=referral&utm_campaign=snapeda-suppression-datasheet"
 			(at 208.28 138.43 0)
 			(effects
 				(font
@@ -9984,6 +10470,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 208.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 208.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402BR-074K7L"
 			(at 208.28 138.43 0)
 			(effects
 				(font
@@ -10041,7 +10545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ndk.com/en/products/upload/lineup/pdf/NDKX03-00015_en.pdf"
 			(at 85.09 82.55 0)
 			(effects
 				(font
@@ -10051,6 +10555,24 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 85.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NDK"
+			(at 85.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NX2016SA-32M-EXS00A-CS06465"
 			(at 85.09 82.55 0)
 			(effects
 				(font
@@ -10314,7 +10836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 194.31 22.86 0)
 			(effects
 				(font
@@ -10324,6 +10846,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 194.31 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 194.31 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "04023C104KAT2A"
 			(at 194.31 22.86 0)
 			(effects
 				(font
@@ -10382,7 +10922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/RC0402BR-071KL/Yageo/view-part/?ref=mouser"
 			(at 215.9 31.75 0)
 			(effects
 				(font
@@ -10393,6 +10933,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 215.9 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402BR-071KL"
+			(at 215.9 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10452,7 +11010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/C0GNP0-KGM.pdf"
 			(at 107.95 139.7 0)
 			(effects
 				(font
@@ -10462,6 +11020,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "04025A100JAT4A"
 			(at 107.95 139.7 0)
 			(effects
 				(font
@@ -10605,6 +11181,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 187.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 187.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2c3068a-132a-4b33-be63-004b2e15de81")
 		)
@@ -10645,7 +11239,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "220"
 			(at 182.88 154.9399 0)
 			(effects
 				(font
@@ -10663,7 +11257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 180.34 153.67 0)
 			(effects
 				(font
@@ -10673,6 +11267,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 180.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 180.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-07221RL"
 			(at 180.34 153.67 0)
 			(effects
 				(font
@@ -10732,7 +11344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/RS-282G05A-SM_RT.pdf"
 			(at 80.01 46.99 0)
 			(effects
 				(font
@@ -10743,6 +11355,24 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 85.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 85.09 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RS-282G05A3-SM RT"
+			(at 85.09 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,7 +11498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 99.06 27.94 0)
 			(effects
 				(font
@@ -10878,6 +11508,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 99.06 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 99.06 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "04023C104KAT2A"
 			(at 99.06 27.94 0)
 			(effects
 				(font
@@ -11004,7 +11652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/76/2/JELF243B_9117.pdf"
 			(at 104.14 68.58 0)
 			(effects
 				(font
@@ -11014,6 +11662,24 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LQG15WZ10NJ02D"
 			(at 104.14 68.58 0)
 			(effects
 				(font
@@ -11139,7 +11805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 203.2 22.86 0)
 			(effects
 				(font
@@ -11149,6 +11815,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 203.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 203.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0603YD475MAT2A"
 			(at 203.2 22.86 0)
 			(effects
 				(font
