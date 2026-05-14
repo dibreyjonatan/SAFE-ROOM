@@ -265,10 +265,6 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_not_connected|977900|444500|7751618f-7105-4386-910b-63f35b012c97|00000000-0000-0000-0000-000000000000|/ba4846b8-7c71-441f-b11b-b34cbea60d05|/ba4846b8-7c71-441f-b11b-b34cbea60d05|",
-        ""
-      ],
-      [
         "power_pin_not_driven|1193800|508000|70df0f22-1c72-454b-98b1-3b4f075ca2ee|00000000-0000-0000-0000-000000000000|/ba4846b8-7c71-441f-b11b-b34cbea60d05|/ba4846b8-7c71-441f-b11b-b34cbea60d05|",
         "Le problème vient de la schématique et non de moi "
       ]
@@ -602,8 +598,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "Manufacturing/",
+      "pos_files": "./",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -743,7 +739,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "RF",
-    "plot_directory": "",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
