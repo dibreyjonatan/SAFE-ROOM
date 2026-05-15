@@ -7,7 +7,7 @@
 	(title_block
 		(title "SAFE ROOM SCHEMATIC")
 		(date "2026-05-06")
-		(rev "0.1")
+		(rev "0.2")
 		(company "PAR KAMDA JONATAN")
 	)
 	(lib_symbols
@@ -6966,7 +6966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 75.2348 63.5 0)
 			(effects
 				(font
@@ -8624,7 +8624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 184.15 87.63 0)
 			(effects
 				(font
@@ -8633,7 +8633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/TSW-112-07-TM-S/Samtec/datasheet/"
 			(at 184.15 87.63 0)
 			(effects
 				(font
@@ -8651,7 +8651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "SAMTEC"
 			(at 184.15 87.63 90)
 			(effects
 				(font
@@ -8660,7 +8660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "TSW-112-07-TM-S "
 			(at 184.15 87.63 90)
 			(effects
 				(font
@@ -11154,7 +11154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 187.96 45.72 0)
 			(effects
 				(font
@@ -11163,7 +11163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.snapeda.com/parts/TSW-112-07-TM-S/Samtec/datasheet/"
 			(at 187.96 45.72 0)
 			(effects
 				(font
@@ -11181,7 +11181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "SAMTEC"
 			(at 187.96 45.72 0)
 			(effects
 				(font
@@ -11190,7 +11190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "TSW-112-07-TM-S "
 			(at 187.96 45.72 0)
 			(effects
 				(font

@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "6141a004-8b8e-4b1f-8591-fb0ac352cfd8")
 	(paper "A4")
+	(title_block
+		(company "PAR KAMDA JONATAN")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
