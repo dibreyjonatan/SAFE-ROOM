@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.6"
     },
-    "CreationDate": "2026-05-14T13:26:14+02:00"
+    "CreationDate": "2026-05-17T01:43:56+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -15,7 +15,7 @@
     },
     "Size": {
       "X": 55.55,
-      "Y": 29.05
+      "Y": 32.05
     },
     "LayerNumber": 4,
     "BoardThickness": 1.62,
@@ -28,7 +28,9 @@
       "PadToPad": 0.15,
       "PadToTrack": 0.15,
       "TrackToTrack": -0.0,
-      "MinLineWidth": 0.1647
+      "MinLineWidth": 0.1647,
+      "TrackToRegion": 0.3,
+      "RegionToRegion": 0.3
     },
     {
       "Layers": "Inner",
@@ -58,6 +60,11 @@
     {
       "Path": "Hardware-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Hardware-B_Adhesive.gbr",
+      "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -93,6 +100,11 @@
     {
       "Path": "Hardware-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Hardware-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],
