@@ -1,0 +1,9 @@
+Impedance controle required 
+
+1) 50 Ohms (+-10%) Single-Ended Microstrip
+   Trace Width - 0.1647mm
+2) 90 OHms (+-10%) Differential Microstrip 
+   Trace Width - 0.1647mm
+   Trace spacing : 0.18mm
+
+Confirm trace widths and spacings. Adjust stack-up as necessary 
