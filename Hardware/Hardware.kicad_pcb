@@ -131,7 +131,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "C:/Users/admin/Desktop/Project/Hardware/Manufacturing/v2/geber/")
+			(outputdirectory "C:/Users/admin/Desktop/Project/Hardware/Manufacturing/geber/")
 		)
 	)
 	(net 0 "")
