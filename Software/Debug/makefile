@@ -9,14 +9,11 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include Utilities/subdir.mk
 -include USB_Device/Target/subdir.mk
 -include USB_Device/App/subdir.mk
--include STM32_WPAN/Target/subdir.mk
--include STM32_WPAN/App/subdir.mk
--include Middlewares/USB_Device_Library/subdir.mk
--include Middlewares/STM32_WPAN/subdir.mk
--include Drivers/STM32WBxx_HAL_Driver/subdir.mk
+-include Middlewares/ST/STM32_USB_Device_Library/Core/Src/subdir.mk
+-include Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/subdir.mk
+-include Drivers/STM32WBxx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
 -include objects.mk
@@ -41,34 +38,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := software_SAFE_ROOM
+BUILD_ARTIFACT_NAME := SOFTWARE
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-software_SAFE_ROOM.elf \
+SOFTWARE.elf \
 
 MAP_FILES += \
-software_SAFE_ROOM.map \
+SOFTWARE.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-software_SAFE_ROOM.list \
+SOFTWARE.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: software_SAFE_ROOM.elf secondary-outputs
+main-build: SOFTWARE.elf secondary-outputs
 
 # Tool invocations
-software_SAFE_ROOM.elf software_SAFE_ROOM.map: $(OBJS) $(USER_OBJS) C:\Users\admin\Desktop\projects\Project\ safe\ home\Software\STM32WB55RGVX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "software_SAFE_ROOM.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\admin\Desktop\projects\Project safe home\Software\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="software_SAFE_ROOM.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+SOFTWARE.elf SOFTWARE.map: $(OBJS) $(USER_OBJS) C:\Users\admin\STM32CubeIDE\workspace_1.18.1\SOFTWARE\STM32WB55RGVX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "SOFTWARE.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\admin\STM32CubeIDE\workspace_1.18.1\SOFTWARE\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SOFTWARE.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -77,14 +74,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-software_SAFE_ROOM.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "software_SAFE_ROOM.list"
+SOFTWARE.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "SOFTWARE.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) default.size.stdout software_SAFE_ROOM.elf software_SAFE_ROOM.list software_SAFE_ROOM.map
+	-$(RM) SOFTWARE.elf SOFTWARE.list SOFTWARE.map default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
