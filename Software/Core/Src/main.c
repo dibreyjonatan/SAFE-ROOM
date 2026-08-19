@@ -20,6 +20,7 @@
 #include "main.h"
 #include "i2c.h"
 #include "memorymap.h"
+#include "tim.h"
 #include "usb_device.h"
 #include "gpio.h"
 
@@ -36,7 +37,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define TIM_FREQ 32000000
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -54,7 +55,8 @@
 void SystemClock_Config(void);
 void PeriphCommonClock_Config(void);
 /* USER CODE BEGIN PFP */
-
+void noTone (void);
+int presForFrequency (int frequency);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -96,6 +98,7 @@ int main(void)
   MX_GPIO_Init();
   MX_USB_Device_Init();
   MX_I2C1_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
   // j'ai utilisé ca pour faire un debug, afin de visualiser la valeur de retour
  //int t=BME280_Config(OSRS_2, OSRS_16, OSRS_1, MODE_NORMAL, T_SB_0p5, IIR_16) ;
@@ -103,6 +106,8 @@ int main(void)
    {
  	  Error_Handler();
    }
+ // __HAL_TIM_SET_PRESCALER(&htim2,133); // pour avoir 240Hz
+  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_4);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -125,6 +130,30 @@ int main(void)
 	  CDC_Transmit_FS((uint8_t *)msg, len);
 
 	  HAL_Delay(1000);
+	   // si Temp < 20 --> blue toggle
+	  if ( Temperature <= 20)
+	  HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_15);
+	  else{
+
+
+	  // si Temp > 20 && Temp < 40 --> Yellow Toggle
+		  if ( Temperature > 20 && Temperature <= 40)
+	  HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_13);
+	  // si Temp > 40 --> Orange Toggle
+		  else
+	  HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_14);
+	  }
+
+	  __HAL_TIM_SET_PRESCALER(&htim2, presForFrequency(970));
+	  HAL_Delay(80);
+	  __HAL_TIM_SET_PRESCALER(&htim2, presForFrequency(770));
+	  HAL_Delay(80);
+	  __HAL_TIM_SET_PRESCALER(&htim2, presForFrequency(970));
+	  HAL_Delay(80);
+	  __HAL_TIM_SET_PRESCALER(&htim2, presForFrequency(770));
+	  HAL_Delay(400);
+
+
   }
   /* USER CODE END 3 */
 }
@@ -205,7 +234,16 @@ void PeriphCommonClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+int presForFrequency (int frequency)
+{
+	if (frequency == 0) return 0;
+	return ((TIM_FREQ/(1000*frequency))-1);  // 1 is added in the register
+}
 
+void noTone (void)
+{
+	__HAL_TIM_SET_PRESCALER(&htim2, 0);
+}
 /* USER CODE END 4 */
 
 /**

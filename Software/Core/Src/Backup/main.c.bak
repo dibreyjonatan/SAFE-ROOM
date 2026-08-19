@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "i2c.h"
 #include "memorymap.h"
 #include "usb_device.h"
 #include "gpio.h"
@@ -25,6 +26,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "usbd_cdc_if.h"
+#include "BME280_STM32.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -57,7 +59,7 @@ void PeriphCommonClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+float Temperature, Pressure, Humidity;
 /* USER CODE END 0 */
 
 /**
@@ -93,8 +95,14 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USB_Device_Init();
+  MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
-
+  // j'ai utilisé ca pour faire un debug, afin de visualiser la valeur de retour
+ //int t=BME280_Config(OSRS_2, OSRS_16, OSRS_1, MODE_NORMAL, T_SB_0p5, IIR_16) ;
+  if (BME280_Config(OSRS_2, OSRS_16, OSRS_1, MODE_NORMAL, T_SB_0p5, IIR_16) != 0)
+   {
+ 	  Error_Handler();
+   }
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -104,10 +112,32 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  uint8_t msg[] = "HELLO FROM STM32WB55\r\n";
+	  char msg[128];
 
-	    CDC_Transmit_FS(msg, sizeof(msg) - 1);
-	        HAL_Delay(1000);
+	  BME280_Measure(&Temperature, &Pressure, &Humidity);
+
+	  int len=snprintf(msg, sizeof(msg),
+	           "Temperature: %.2f C | Pressure: %.2f Pa | Humidity: %.2f %%\r\n",
+	           Temperature,
+	           Pressure,
+	           Humidity);
+
+	  CDC_Transmit_FS((uint8_t *)msg, len);
+
+	  HAL_Delay(1000);
+	   // si Temp < 20 --> blue toggle
+	  if ( Temperature <= 20)
+	  HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_15);
+	  else{
+
+
+	  // si Temp > 20 && Temp < 40 --> Yellow Toggle
+		  if ( Temperature > 20 && Temperature <= 40)
+	  HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_13);
+	  // si Temp > 40 --> Orange Toggle
+		  else
+	  HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_14);
+	  }
   }
   /* USER CODE END 3 */
 }
@@ -202,6 +232,8 @@ void Error_Handler(void)
   __disable_irq();
   while (1)
   {
+	  HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_13);
+	  HAL_Delay(1000);
   }
   /* USER CODE END Error_Handler_Debug */
 }
